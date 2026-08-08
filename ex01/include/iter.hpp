@@ -6,7 +6,7 @@
 /*   By: danslav1e <danslav1e@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/15 16:27:21 by danslav1e         #+#    #+#             */
-/*   Updated: 2026/07/15 16:58:34 by danslav1e        ###   ########.fr       */
+/*   Updated: 2026/08/08 19:46:37 by danslav1e        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #define ITER_HPP
 
 #include <iostream>
+#include <cstddef>
 
 template <typename T, typename Func>
 void iter(T* arr, size_t length, Func f) {
@@ -22,4 +23,5 @@ void iter(T* arr, size_t length, Func f) {
         f(arr[i]);
     }
 }
+
 #endif
