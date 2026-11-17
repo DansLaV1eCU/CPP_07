@@ -12,7 +12,6 @@ public:
 		public:
 			virtual const char* what() const throw();
 	};
-
 	Array( void );
 	Array( unsigned int n );
 	Array( const Array& other );

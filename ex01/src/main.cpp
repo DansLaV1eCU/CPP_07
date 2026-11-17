@@ -6,7 +6,7 @@
 /*   By: danslav1e <danslav1e@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/15 17:25:53 by danslav1e         #+#    #+#             */
-/*   Updated: 2026/08/08 19:41:48 by danslav1e        ###   ########.fr       */
+/*   Updated: 2026/11/17 19:36:33 by danslav1e        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int main( void ) {
     int intArray[] = { 1, 2, 3, 4, 5 };
     size_t intArrayLen = sizeof(intArray) / sizeof(intArray[0]);
 
-    const int constIntArray[] = { 42, 42, 42 };
+    const int constIntArray[] = { 10, 20, 30, 40, 50 };
     size_t constIntArrayLen = sizeof(constIntArray) / sizeof(constIntArray[0]);
 
     std::string stringArray[] = { "School", "42", "Prague" };

@@ -1,19 +1,14 @@
-NAME		:= ex01
-CXX		:= c++
-CXXFLAGS	:= -Wall -Wextra -Werror -std=c++98
+NAME        := ex01
+CXX         := c++
+CXXFLAGS    := -Wall -Wextra -Werror -std=c++98
 
-SRC_DIR		:= src
-INCLUDE_DIR	:= include
-SRC		:= $(wildcard $(SRC_DIR)/*.cpp)
-OBJ_DIR		:= obj
-OBJ		:= $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
+SRC_DIR     := src
+INCLUDE_DIR := include
 
-ifeq ($(strip $(SRC)),)
+SRC         := $(SRC_DIR)/main.cpp
 
-all:
-	@echo "No source files yet in $(SRC_DIR)/"
-
-else
+OBJ_DIR     := obj
+OBJ         := $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
 all: $(NAME)
 
@@ -31,7 +26,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
-
-endif
 
 .PHONY: all clean fclean re
