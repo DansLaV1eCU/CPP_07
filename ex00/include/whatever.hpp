@@ -6,14 +6,12 @@
 /*   By: danslav1e <danslav1e@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/15 16:06:31 by danslav1e         #+#    #+#             */
-/*   Updated: 2026/08/08 19:23:12 by danslav1e        ###   ########.fr       */
+/*   Updated: 2026/11/25 21:56:20 by danslav1e        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef WHATEVER_HPP
 #define WHATEVER_HPP
-
-#include <iostream>
 
 template <typename T>
 void swap(T &a, T &b) {

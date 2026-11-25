@@ -6,11 +6,13 @@
 /*   By: danslav1e <danslav1e@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/15 16:23:37 by danslav1e         #+#    #+#             */
-/*   Updated: 2026/07/15 16:24:10 by danslav1e        ###   ########.fr       */
+/*   Updated: 2026/11/25 22:02:00 by danslav1e        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "whatever.hpp"
+#include <iostream>
+#include <string>
 
 int main( void ) {
 	int a = 2;
